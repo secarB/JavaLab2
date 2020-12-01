@@ -11,8 +11,5 @@ public class Rest extends StatusMove {
         p.setMod(Stat.HP, (int) p.getStat(Stat.HP));
     }
 
-    @Override
-    protected  String describe(){
-        return "User sleeps for 2 turns, but user is fully healed.";
-    }
+    
 }
