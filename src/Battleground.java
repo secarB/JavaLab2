@@ -16,6 +16,7 @@ public class Battleground {
 		b.addFoe(p4);
 		b.addAlly(p5);
 		b.addFoe(p6);
+		int la=1;
 		b.go();
 	}
 
